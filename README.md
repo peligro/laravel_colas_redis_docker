@@ -18,3 +18,8 @@
 #detener proyecto
 <br/>
 <code>docker-compose down</code>
+<hr />
+#ejecutar las colas con supervisor
+<br/>
+<code>docker exec -it peligro-laravel-app service supervisor start</code>
+
